@@ -4,7 +4,7 @@
 	"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
 <hibernate-mapping package="catalog.model.businessobject">
 	<class name="Category" 
-		table="CATEGORY">
+		table="category">
 
 		<id name="id" column="ID"
 			unsaved-value="null">
