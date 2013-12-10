@@ -15,7 +15,7 @@
     </managed-property>
     <managed-property>
     	<property-name>productImageDirUri</property-name>
-    	<value>\devops\apache-tomcat-6.0.36\webapps\catalog\images\products</value>
+    	<value>/devops/apache-tomcat-6.0.36/webapps/catalog/images/products</value>
     </managed-property>
     <managed-property>
     	<property-name>imageUploadResultPage</property-name>
