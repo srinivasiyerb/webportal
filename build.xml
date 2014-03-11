@@ -10,7 +10,7 @@
 
 <project name="jcatalog" default="build.war" basedir=".">
   <!-- Configure the context path for this application -->
-  <property name="project.name" 	value="catalog-1.0" />
+  <property name="project.name" 	value="catalog" />
   <property name="build.dir"   	value="${basedir}/build" />
   <property name="src.dir" 		value="${basedir}/src" />
   <property name="src.java.dir" 	value="${src.dir}/java" />
