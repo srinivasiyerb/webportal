@@ -11,7 +11,7 @@
 			<value>com.mysql.jdbc.Driver</value>
 		</property>
 		<property name="url">
-			<value>${url}</value>
+			<value>"${jdbc.url}"</value>
 		</property>
 		<property name="username">
 			<value>root</value>
