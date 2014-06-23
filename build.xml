@@ -20,7 +20,8 @@
   <property name="lib.dir"		value="${basedir}/lib" />
   <property name="dist.dir" 		value="${basedir}/dist" />
   <property name="db_server_ip" 		value="${ip}" />
-  <property name="db_server_port" 		value="${port}" />
+  
+   <property name="url" value="jdbc:mysql://192.168.150.84:49154/catalog"/>
 
   <path id="classpath">
       <fileset dir="${lib.dir}">
