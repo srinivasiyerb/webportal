@@ -15,7 +15,7 @@
     </managed-property>
     <managed-property>
     	<property-name>productImageDirUri</property-name>
-    	<value>/devops/apache-tomcat-6.0.39/webapps/webportal/images/products</value>
+    	<value>/opt/apache-tomcat-6.0.42/webapps/webportal/images/products</value>
     </managed-property>
     <managed-property>
     	<property-name>imageUploadResultPage</property-name>
