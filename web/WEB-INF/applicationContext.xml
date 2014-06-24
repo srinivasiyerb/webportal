@@ -9,9 +9,9 @@
 	<bean id="propertyConfigurer"  
    class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
  <property name="location">  
-  <list>
-<value>/db.properties</value>
-</list>
+  
+<value>file:/opt/db.properties</value>
+
  </property>  
 </bean> 
 	
