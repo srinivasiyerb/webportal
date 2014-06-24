@@ -6,19 +6,26 @@
 	
 	<!-- DataSource Definition -->
 	
+	<bean id="propertyConfigurer"  
+   class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
+ <property name="location">  
+  <value>file:${user.home}/db.properties</value>  
+ </property>  
+</bean> 
+	
 	<bean id="dataSource"
       	class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName">
-			<value>com.mysql.jdbc.Driver</value>
+			<value>"${db.driver}"</value>
 		</property>
 		<property name="url">
-			<value>jdbc:mysql://192.168.150.84:3306/catalog</value>
+			<value>"${db.url}"</value>
 		</property>
 		<property name="username">
-			<value>root</value>
+			<value>"${db.user}"</value>
 		</property>
 		<property name="password">
-			<value>root123</value>
+			<value>${db.pass}</value>
 		</property>
 	</bean>
 
