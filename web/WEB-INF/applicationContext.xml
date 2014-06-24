@@ -18,13 +18,13 @@
 	<bean id="dataSource"
       	class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
 		<property name="driverClassName">
-			<value>"${db.driver}"</value>
+			<value>${db.driver}</value>
 		</property>
 		<property name="url">
-			<value>"${db.url}"</value>
+			<value>${db.url}</value>
 		</property>
 		<property name="username">
-			<value>"${db.user}"</value>
+			<value>${db.user}</value>
 		</property>
 		<property name="password">
 			<value>${db.pass}</value>
