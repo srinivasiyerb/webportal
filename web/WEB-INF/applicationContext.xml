@@ -16,7 +16,7 @@
 </bean> 
 	
 	<bean id="dataSource"
-      	class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
+      	class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName">
 			<value>"${db.driver}"</value>
 		</property>
