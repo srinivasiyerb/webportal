@@ -10,7 +10,7 @@
    class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
  <property name="location">  
   
-<value>file:/opt/db.properties</value>
+<value>file:/opt/mysqldb.properties</value>
 
  </property>  
 </bean> 
