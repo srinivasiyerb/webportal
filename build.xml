@@ -18,7 +18,7 @@
   <property name="docs.api.dir" 	value="${docs.dir}/api" />
   <property name="web.dir" 		value="${basedir}/web" />
   <property name="lib.dir"		value="${basedir}/lib" />
-  <property name="dist.dir" 		value="${basedir}/dist" />
+  <property name="dist.dir" 		value="${basedir}/" />
   <property name="db_server_ip" 		value="${ip}" />
   
    <property name="url" value="jdbc:mysql://192.168.150.84:49154/catalog"/>
