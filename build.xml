@@ -93,8 +93,8 @@
   </target>	 
 
   <target name="build.war" depends="build">
-    <delete dir="${dist.dir}" />
-    <mkdir dir="${dist.dir}" />
+   <!-- <delete dir="${dist.dir}" />
+    <mkdir dir="${dist.dir}" /> -->
     <!-- create a war file for distribution -->
     <jar destfile="${dist.dir}/${project.name}.war" basedir="${build.dir}/${project.name}"/>
     <delete dir="${build.dir}" />
