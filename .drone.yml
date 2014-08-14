@@ -1,5 +1,6 @@
 image: openjdk7
 env
   - /usr/lib/jvm/java-1.7.0-openjdk
+  -/var/cache/drone/
 script
 echo test
