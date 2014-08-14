@@ -1,6 +1,8 @@
-image: bradrydzewski/java:openjdk7
-
+image: mischief/docker-golang
 env:
   - GOPATH=/var/cache/drone
 script:
-   - java -version
+  - go build
+  - go test -v
+services:
+  - redis
