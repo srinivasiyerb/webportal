@@ -1,0 +1,6 @@
+image: bradrydzewski/java:openjdk7
+
+env:
+  - GOPATH=/var/cache/drone
+script:
+   - ant build
